@@ -1,0 +1,43 @@
+li {
+  list-style-type: none;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 7px 4px;
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.emoji-img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  li {
+    list-style-type: none;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 6px;
+    background-color: #ffffff33;
+    border: 3px solid #ffffff30;
+    border-radius: 20px;
+  }
+
+  .emoji-img {
+    width: 100px;
+    height: 100px;
+  }
+}
